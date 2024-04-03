@@ -1,0 +1,292 @@
+/* Nombre Completo: Edson Esteban Garcia Cuesta
+Clan: DELL
+Fecha: 03/04/2024  */
+
+
+
+
+/* importamos la fuente que utilizaremos en el proyecto */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* importamos los iconos que utilizaremos en el proyecto */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+
+
+/* Definimos las variables de colores que vamos a utilizar en el proyecto */
+:root{
+    --verde_Bosque: #1A5126;
+    --Verde_Claro: #8FBF5F;
+    --Azul_Claro: #5CB3FF;
+    --Beige: #F3E9DC;
+    --Marrón_Tierra: #B18F6A;
+    --Blanco: #FFFFFF;
+    
+    }
+
+
+
+/* Modificacion de los parametros predeterminados por los compiladores web y llamamos la fuente que se utilizara en la pagina web */
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+/* Estilos HEADER */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+  background-color:var(--verde_Bosque);
+
+}
+
+.header h1{
+    color: var(--Blanco);
+}
+
+.navegacion{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.navegacion a{
+    color: var(--Blanco);
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+    
+}
+
+/* Estilos del main llamado cuerpo */
+.cuerpo{
+    background-color: var(--Beige);
+}
+
+
+
+/* Estilos de la seccion presentacion */
+
+.presentacion{
+    background-image: url(../../public/images/imagen1.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+
+
+
+.presentacion h2{
+    color: var(--Blanco);
+    margin-bottom: 20px;
+    font-size: 30px;
+  
+    
+}
+
+.presentacion p{
+    color: var(--Blanco);
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: 600;
+    text-align: center;
+}
+    
+/* Estilos de la seccion1 */
+
+.seccion1{
+    display: flex;
+    
+}
+
+
+/*Estilos del primer article de la section1 */
+
+.texto1{
+    width: 97%;
+}
+
+
+.texto1 h3{
+    color: var(--verde_Bosque);
+    text-align: center;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.texto1 p{
+    text-align: center;
+    margin: 40px;
+}
+
+.texto1 h4{
+    color: var(--verde_Bosque);
+    text-align: center;
+    margin: 10px;
+    
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+
+/* Estilos del segundo articule de la primera seccion */
+
+.fotos1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    gap: 10px;
+    
+}
+.pardefotos{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.fotogrande{
+    width: 80%;
+
+}
+
+.pardefotos img{
+    width: 40%;
+}
+
+/* Estilos de la segunda Seccion2 */
+
+/* Estilos de la seccion1 */
+
+.seccion2{
+    display: flex;
+    
+}
+.texto2{
+    width: 97%;
+}
+
+
+.texto2 h3{
+    color: var(--verde_Bosque);
+    text-align: center;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.texto2 p{
+    text-align: center;
+    margin: 40px;
+}
+
+.texto2 h4{
+    color: var(--verde_Bosque);
+    text-align: center;
+    margin: 10px;
+}
+
+.seccion3{ 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.seccion3 h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: var(--verde_Bosque);
+}
+
+.seccion3 p{
+    color: var(--verde_Bosque);
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.globos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.globos div{
+    background-color: var(--Verde_Claro);
+    border-radius: 60px;
+    width: 30%;
+}
+
+.logos{
+    text-align: center;
+    color: var(--Blanco);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.globos h4{
+    display: flex;
+    justify-content: center;
+    color: var(--verde_Bosque);
+}
+
+.globos p{
+    color: var(--Blanco);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+  background-color:var(--verde_Bosque);
+}
+.imagenalcaldia img{
+    width: 5%;
+}
+
+footer span{
+    color: var(--Blanco);
+}
+
+.imagenalcaldia article{
+    color: var(--Blanco);
+}
